@@ -1,0 +1,247 @@
+/*****************************************************************************************************************************************************************
+************************************************STYLE POUR PRENDRE EN COMPTE LES TELEPHONES***********************************************************************
+*****************************************************************************************************************************************************************/
+
+/**********************************************************
+***********************STYLE POUR LE BODY******************
+**********************************************************/
+/* Style for body specifies a background color */
+body {
+		background-color: #e6ecff;
+	}
+
+/**********************************************************
+***********************STYLE POUR LA CONTAINER************
+**********************************************************/
+#container {
+		width: 99%;
+		margin-left: auto;
+		margin-right: auto;
+}
+/**********************************************************
+***********************STYLE POUR LE HEADER************
+**********************************************************/
+header {
+		margin-top: 0.2em;
+		background-color: #FFFFFF;
+		border-radius: 0.5em;
+}
+
+/**********************************************************
+***********************STYLE POUR LA NAVIGATION************
+**********************************************************/
+/* Style for the nav specifies text properties */
+nav {
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 0.9em;
+		font-weight: bold;
+		font-style: oblique;
+		text-align: center;
+		margin-top:1.5em;
+	}
+/* Style specifies padding and margins for unordered list */
+nav ul {
+		padding: 0;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+}
+/* Style for nav li specifies the background color, rounded corners, 
+removes bullet style, and applies margins and padding for list items within the navigation */
+nav li {
+	    background-color:#9D9D93;
+		border-radius: 2em;
+		list-style-type: none;
+		margin: 0.3em;
+		padding: 0.4em;
+}
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+		color: #FFFFF0F;
+		text-decoration:none;
+}
+/**********************************************************
+***********************STYLE POUR LE BANNER***************
+**********************************************************/
+.desktop img { 
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+/**********************************************************
+***********************STYLE POUR LE MAIN***************
+**********************************************************/
+main {
+		display: block;
+		font-family: Verdana, Arial, sans-serif;
+		font-size: 1em;
+		margin-top: 0.5em;
+		padding: 1em;
+		border-radius: 2em 0 2em 0;
+		background-color:#FFFFFF;
+		opacity:0.85;
+	}
+/* Style for anchor elements within the main element*/
+main a {
+		background-color:#9D9D93;
+		border-radius: 1em;
+		color: #FFFFFF;
+		font-weight: bold;
+		padding: 0.5em;
+		text-decoration: none;
+}
+main p {
+    text-align: justify;
+}
+main h3 {
+    font-style:italic;
+}
+/**********************************************************
+***********************STYLE POUR LE FOOTER****************
+**********************************************************/
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+		font-size: .70em;
+		text-align: center;
+		margin-top: 2em;
+		color:#002699;
+    }
+/* Style for anchor elements within the footer element */
+footer a {
+		color: #002699;
+		text-decoration: none;
+}
+.desktop img { 
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+/*****************************************************************************************************************************************************************
+************************************************STYLE POUR PRENDRE EN COMPTE LES TABLLETES ***********************************************************************
+*****************************************************************************************************************************************************************/
+@media only screen and (min-width: 600px) {
+	
+	/**********************************************************
+	***********************STYLE POUR LE HEADER************
+	**********************************************************/
+	header {
+		margin-top: 0.2em;
+		background-color: #FFFFFF;
+		border-radius: 0.5em;
+	}
+	/**********************************************************
+	***********************STYLE POUR LA NAVIGATION************
+	**********************************************************/
+	/* Style specifies a horizontal display for navigation links */
+	nav {
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 0.8em;
+		font-weight: bold;
+		font-style: oblique;
+		text-align: center;
+		margin-top:1.5em;
+	}
+	nav li {
+			display: inline;
+			float: left;
+			margin-left: 1%;
+			margin-right: 1%;
+			padding-left: 0;
+			padding-right: 0;
+			width: 12%;
+			white-space: nowrap;
+			border-radius:0;
+			background-color:transparent;
+		}
+	/**********************************************************
+	***********************STYLE POUR LE BANNER***************
+	**********************************************************/
+	.desktop img { 
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/**********************************************************
+	***********************STYLE POUR LE FOOTER****************
+	**********************************************************/
+	/* Style for footer specifies font size, text alignment, and top margin */
+	footer {
+		font-size: .70em;
+		text-align: center;
+		margin-top: 2em;
+		color:#002699;
+    }
+	/* Style for anchor elements within the footer element */
+	footer a {
+		color: #002699;
+		text-decoration: none;
+	}
+}
+
+/*****************************************************************************************************************************************************************
+************************************************STYLE POUR PRENDRE EN COMPTE LES ORDINATEURS ***********************************************************************
+*****************************************************************************************************************************************************************/
+@media only screen and (min-width: 770px) {
+	
+	/**********************************************************
+	***********************STYLE POUR LE HEADER************
+	**********************************************************/
+	header {
+		margin-top: 0.2em;
+		background-color: #FFFFFF;
+		border-radius: 0.5em;
+	}
+	/**********************************************************
+	***********************STYLE POUR LA NAVIGATION************
+	**********************************************************/
+	/* Style specifies a horizontal display for navigation links */
+	nav {
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 1.0em;
+		font-weight: bold;
+		font-style: oblique;
+		text-align: center;
+		margin-top:1.5em;
+		background-color: #e6ecff;
+		border-radius: 0.5em;
+	}
+	nav li {
+			display: inline;
+			float: left;
+			margin-left: 1%;
+			margin-right: 1%;
+			padding-left: 0;
+			padding-right: 0;
+			width: 10%;
+			white-space: nowrap;
+			border-radius:0;
+			background-color:transparent;
+	}
+	/**********************************************************
+	***********************STYLE POUR LE BANNER***************
+	**********************************************************/
+	.desktop img { 
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/**********************************************************
+	***********************STYLE POUR LE FOOTER****************
+	**********************************************************/
+	/* Style for footer specifies font size, text alignment, and top margin */
+	footer {
+		font-size: .70em;
+		text-align: center;
+		margin-top: 2em;
+		color:#002699;
+    }
+	/* Style for anchor elements within the footer element */
+	footer a {
+		color: #002699;
+		text-decoration: none;
+	}
+	.desktop img { 
+		 width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
